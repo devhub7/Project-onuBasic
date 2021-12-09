@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+body {
+    color: #8d8c8c;
+    font-family: "roboto",sans-serif;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1170px;
+    overflow: hidden;
+    padding: 0 15px;
+}
+/*=====================
+=========Header Start*/
+#header {
+    background: rgba(0, 0, 0, 0) url("../images/slider.jpg") no-repeat scroll center center / cover ;
+}
+.overlay {
+    background: rgba(0, 0, 0, 0.114) none repeat scroll 0 0;	
+}
+.header-top {
+    margin-top: 20px;
+    overflow: hidden;
+}
+.logo {
+    float: left;
+    padding-left: 3%;
+    width: 20%;
+}
+.menu {
+    float: right;
+	margin-top: 40px;
+}
+.menu ul {
+    margin: 0;
+    padding: 0;
+}
+.menu ul li {
+    display: inline-block;
+    list-style: outside none none;
+}
+.menu ul li a {
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.menu ul li a:hover, #active {
+    color: #8aca7c;
+}
+.header-content {
+  color: #fff;
+  font-weight: normal;
+  margin: 50px auto 260px;
+  max-width: 700px;
+  text-align: center;
+}
+
+.header-content h1 {
+  border: 2px solid #fff;
+  font-size: 5em;
+  margin: 10px auto;
+  max-width: 630px;
+}
+.header-content h2 {
+    font-size: 2.25em;
+}
+
+.header-content h3 {
+    font-size: 2em;
+}
+
+/*.header-content {
+    color: #fff;
+    margin-left: 80px;
+    padding-bottom: 180px;
+    padding-top: 80px;
+    text-align: center;
+}
+.header-content h1 {
+  border: 2px solid #fff;
+  display: inline-block;
+  font-size: 100px;
+  font-weight: normal;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  max-width: 700px;
+  padding: 20px;
+}
+.header-content h2 {
+    font-size: 40px;
+    font-weight: normal;
+}
+.header-content h3 {
+    font-size: 36px;
+    font-weight: normal;
+}*/
+span, #iactive h2, #iactive i, .about-content:hover i, .about-content:hover h2, .address-middle {
+    color: #87d37c;
+}
+/*=====================
+=========About Start*/
+#about-us {
+    font-size: 14px;
+    line-height: 22px;
+    padding: 100px 0 80px;
+}
+#about-us h2 {
+    margin-bottom: 10px;
+}
+.about-us-top {
+    margin: 0 auto 70px;
+    text-align: center;
+    width: 585px;
+}
+.about-us-bottom {
+}
+.about-content {
+    float: left;
+    text-align: center;
+    width: 25%;
+	padding-right:10px;
+	margin-bottom: 20px;
+}
+.about-content i {
+    font-size: 300%;
+    margin-bottom: 15px;
+}
+/*=====================
+=========Service Start*/
+#services {
+    background: #f6f9f9 none repeat scroll 0 0;
+    padding: 100px 0 90px;
+}
+.service-top {
+    margin: 0 auto 40px;
+    text-align: center;
+    width: 660px;
+}
+.service-top h2 {
+    margin-bottom: 10px;
+}
+.service-top p {
+    line-height: 22px;
+}
+.service-bottom {
+}
+.single-services {
+  float: left;
+  padding-right: 15px;
+  width: 25%;
+  margin-bottom: 10px;
+}
+.single-services img {
+	width:100%;
+}
+/*=====================
+=========Contact Start*/
+#contact {
+    padding: 100px 0 150px;
+}
+.contact-top {
+    line-height: 22px;
+    margin: 0 auto 50px;
+    text-align: center;
+    width: 685px;
+}
+.contact-top h2 {
+    margin-bottom: 15px;
+}
+.contact-bottom {
+}
+.address {
+}
+.single-address {
+  float: left;
+  text-align: center;
+  width: 33%;
+  margin-bottom: 40px;
+}
+.single-address i {
+  font-size: 550%;
+  padding: 15px 15px 15px 0;
+}
+.single-address h2 {
+	margin-bottom:10px;
+}
+.single-address p {
+	font-size: 18px;
+}
+.formarea {
+	clear:both;
+}
+.message-left {
+    float: left;
+    width: 48%;
+}
+.input-style {
+  margin-bottom: 15px;
+  padding: 10px;
+  width: 85%;
+}
+.message-right {
+    float: right;
+    width: 52%;
+}
+textarea {
+  padding: 10px 20px;
+  width: 100%;
+}
+input[type="submit"] {
+    background: #87d37c none repeat scroll 0 0;
+    border: medium none;
+    color: #fff;
+    margin-top: 10px;
+    padding: 5px;
+}
+/*=========================
+=========Socialicon Start*/
+#socialicon {
+	background: #000;
+	text-align: center;
+	padding: 15px;
+}
+.social-icon i{
+	margin-right: 10px;
+	color: #fff;
+	width:50px;
+	height:50px;
+	line-height: 50px;	
+	border-radius:50%;
+	font-size: 25px;
+	margin: 5px 3px;
+}
+.social-icon .facebook {
+	background: #3c599b;
+}
+.social-icon .googleplus {
+	background: #cd3c2a;
+}
+.social-icon .linkedin {
+	background: #007bb6;
+}
+.social-icon .twitter {
+	background: #5ea9dd;
+}
+.social-icon .skype {
+	background: #00aff0;
+}
+.social-icon .dribble {
+	background: #03a651;
+}
+/*=====================
+=========Footer Start*/
+.#footer {}
+footer {
+	padding: 10px;
+}
+footer p {
+	color:#000;
+	font-size: 14px;
+	text-align: center;
+}
+/* ============= CSS End =============*/

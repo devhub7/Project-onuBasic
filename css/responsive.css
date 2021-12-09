@@ -1,0 +1,35 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	
+}
+/* Mobile Layout: 320px. */
+@media only screen and (min-width: 767px) {
+	
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+}
+
+@media screen and (max-width:768px) {
+	.about-content, .single-services,.single-address {
+		width:50%;
+	}
+	  
+@media screen and (max-width:480px) {
+	.single-address,.message-left, .message-right,.input-style, .about-content,.single-services {
+		width:100%;
+	}
+	.contact-top,.service-top, .about-us-top {
+		width:440px;
+	}
+}
+@media screen and (max-width:320px) {
+	.contact-top,.service-top, .about-us-top {
+		width:280px;
+	}
+}
